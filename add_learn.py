@@ -65,7 +65,7 @@ def add_learn(new_text,new_label):
     for s in sw:
         new_text=new_text.replace(s,"")
     word_data.append(new_text)
-    word_target.append(new_label)
+    word_target.append(int(new_label))
     
 
     ##########sklearn
