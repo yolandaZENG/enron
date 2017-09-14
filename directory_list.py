@@ -74,7 +74,7 @@ tfidf.fit(word_data)
 #print tfidf.transform(word_data)
 tf_word_data=tfidf.transform(word_data)
 joblib.dump(tfidf,'tf.pkl')
-print tf_word_data
+print(tf_word_data)
 ####classification ML
 
 clf=MultinomialNB().fit(tf_word_data,word_target)

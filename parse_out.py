@@ -46,9 +46,9 @@ def parseOutText(f):
 
 def main():
     ff = open("./test_email.txt", "r")
-    print ff.read()
+    print(ff.read())
     text = parseOutText(ff)
-    print text
+    print(text)
 
 
 
